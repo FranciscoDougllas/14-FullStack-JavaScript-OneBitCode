@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate !important;
+            border: 1px solid black;
+            gap: 10px;
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+                <th>Coluna 4</th>
+            </tr>
+        </thead>
+       
+        <tbody>
+            <tr>
+                <td rowspan="2">Coluna 1</td>
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+            </tr>
+    
+            <tr>
+                <td colspan="2">Coluna 1</td>
+                <td>Coluna 2</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td >Coluna 1</td>
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
