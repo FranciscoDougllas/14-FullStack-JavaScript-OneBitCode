@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <select name="select" id="select">
+        <option value="1" selected>Frutas</option>
+        <option value="2">Abacate</option>
+        <option value="3">Banana</option>
+        <option value="4">Laranja</option>
+        <option value="5">Manga</option>
+        <optgroup label="Frutas Vermelhas">
+            <option value="6">Morango</option>
+            <option value="7">Cereja</option>
+            <option value="8">Framboesa</option>
+        </optgroup>
+
+        <optgroup label="Frutas Amarelas">
+            <option value="9">Pêssego</option>
+            <option value="10">Pera</option>
+            <option value="11">Melão</option>
+        </optgroup>
+    </select>
+
+    <label for="textarea">Mensagem</label>
+    <textarea name="texto" id="texto" placeholder="Digite sua mensagem" cols="100" rows="10"></textarea>
+</body>
+</html>
