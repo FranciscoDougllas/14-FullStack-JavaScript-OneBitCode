@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url();
+}
+
+body{
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    background-image: url(https://maepratica.com/wp-content/uploads/2024/01/PRAIA-DE-JERICOACOARA-PARA-CRIANCAS.jpg);
+    background-size: cover;
+}
+
+header{
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+main{
+    background-color: rgba(99, 221, 95, 0.545);
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+section{
+    margin: 20px;
+}
+section a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+section a:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#contact form label{
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+#contact form input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    transition: 0.3s;}
+
+#contact form input:hover{
+    background-color: #333;
+    color: #fff;}
+
+#contact form button{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    transition: 0.3s;}
+
+#contact form button:hover{
+    background-color: #333;
+    color: #fff;}
