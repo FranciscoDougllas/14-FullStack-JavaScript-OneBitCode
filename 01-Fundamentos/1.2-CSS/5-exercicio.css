@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+li{
+    background-color: #1c1a1d;
+    border: 4px solit transparent;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 32px;
+    cursor: pointer;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 32px;
+    height: 250px;
+    width: 400px;
+}
